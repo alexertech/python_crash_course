@@ -3,17 +3,17 @@ skills = ['Python', 'Javascript', 'NodeJS', 'Mean', 'Hawk Eye Debugging']
 
 # lets print
 for sk in skills:
-    print " - " + sk.lower()
+    print (" - " + sk.lower())
 
 # can we create a number list?
 for n in range(1,6):
-    print n
+    print (n)
 
-print "--------"
+print ("--------")
 
 # Can we have non-even fun? That last 2 adds to each item in the range
 for n in range(1, 11, 2):
-    print n
+    print (n)
 
 # What about lists
 squares = []
@@ -21,4 +21,10 @@ squares = []
 for n in range (1, 11):
     squares.append(n**2)
 
-print squares
+print (squares)
+
+# Dont forget the while loops 
+current_number = 1
+while current_number <= 5:
+                  print(current_number)
+                  current_number += 1

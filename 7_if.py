@@ -3,27 +3,27 @@ cars = ['audi','porshe','tesla','ferrari','mazda']
 
 for c in cars:
     if c == "tesla":
-        print "tesla FTW!"
+        print ("tesla FTW!")
     else:
-        print c
+        print (c)
 
 # Classic comparators
 for n in range(5,25):
     if n < 18:
-        print str(n) + "= nope!"
+        print (str(n) + "= nope!")
     if n == 18:
-            print str(n) + "= yes!"
+            print (str(n) + "= yes!")
     if n > 18:
-        print str(n) + "= meh!"
+        print (str(n) + "= meh!")
 
 # better comparations
 for k in range(100,500, 50):
     if k < 200:
-        print "Too cheap"
+        print ("Too cheap")
     elif k == 300:
-        print "Good prize"
+        print ("Good prize")
     elif k > 300:
-        print "what?"
+        print ("what?")
 
 # Lists and choises
 
